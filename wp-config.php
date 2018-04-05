@@ -22,7 +22,7 @@ try {
  */
 
 define( 'WP_HOME',         getenv( 'WP_HOME' ) );
-define( 'WP_SITEURL',      getenv( 'WP_HOME' ) . '/' . getenv( 'WP_DIR' ) );
+define( 'WP_SITEURL',      getenv( 'WP_HOME' ) );
 
 define( 'WP_CONTENT_URL',  getenv( 'WP_HOME' ) . '/wp-content' );
 define( 'WP_CONTENT_DIR',  dirname( __FILE__ ) . '/wp-content' );
