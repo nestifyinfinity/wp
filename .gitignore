@@ -8,7 +8,7 @@
 # WordPress/Composer
 .env
 wp-content/uploads
-vendor/
+wp-content/vendor/
 wordpress/
 wp/
 wp-cli.local.yml
